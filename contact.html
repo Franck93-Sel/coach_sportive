@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mon coach bien être</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="./img/logo coach bien etre2.png"
+              alt="mon coach bien être"
+          /></a>
+        </div>
+        <ul id="nav-links">
+          <li>
+            <a href="index.html">Accueil</a>
+          </li>
+          <li><a href="offres.html">Offres</a></li>
+          <li><a href="ressources.html">Ressources</a></li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section class="contact">
+      <div class="contact-info">
+        <h2>Prenons Contact</h2>
+        <p>
+          Vous avez des questions ? Vous souhaitez réserver une séance ou
+          simplement échanger sur vos objectifs ? Je suis là pour vous
+          accompagner.
+        </p>
+        <p>
+          Contactez-moi par téléphone, email ou via les réseaux sociaux. Je suis
+          impatiente de vous aider à atteindre votre bien-être optimal !
+        </p>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-content">
+            <h4>Localisation</h4>
+            <p>Paris, France<br />Studio privé & séances en extérieur</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-content">
+            <h4>Téléphone</h4>
+            <p>+33 01 02 03 04<br />Lun - Sam : 7h - 20h</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div class="info-content">
+            <h4>Email</h4>
+            <p>laura.moreau@coach-sportif.fr</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Réservez votre Séance</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="nom">Nom Complet *</label>
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              required
+              placeholder="Votre nom"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Votre@email.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="type">Type de rendez-vous *</label>
+            <select id="type" name="type" required>
+              <option value="Sélectionnez une option"></option>
+              <option value="individuel">Coaching Individuel</option>
+              <option value="groupe">Atelier de Groupe</option>
+              <option value="ligne">Programme en ligne</option>
+              <option value="decouverte">Séance Découverte</option>
+              <option value="autre">Autre demande</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Votre message *</label>
+            <textarea
+              name="message"
+              id="message"
+              required
+              placeholder="Parlez-moi de vos objectifs, disponibilités, ou toute question que vous avez..."
+            ></textarea>
+          </div>
+          <a href=""
+            ><button type="submit" class="btn btn-primary">
+              Envoyer ma demande
+            </button></a
+          >
+        </form>
+        <div class="success-message" id="success-message">
+          <h3 style="margin-bottom: 0.5rem">Message envoyé avec succès</h3>
+          <p style="margin: 0">
+            Je vous recontacterai dans les 24 heures. A très bientôt
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>Contact</p>
+          <p>CGU</p>
+          <p>Mentions Légales</p>
+          <p>Confidentialités</p>
+        </div>
+        <div class="footer-center">
+          <p>
+            &copy; 2026 Laura Moreau - Coach Sportive & Bien-être. <br />Tous
+            droits réservés.
+          </p>
+          <p>SIRET: 123 456 789 00012 | <br />Diplôme d'État BPJEPS</p>
+        </div>
+        <div class="footer-right">
+          <p>Suivez moi sur les réseaux sociaux</p>
+          <div class="footer-social-media">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js">
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("nav-links");
+
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
