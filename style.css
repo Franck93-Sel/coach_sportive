@@ -138,6 +138,7 @@ nav a {
   display: flex;
   gap: 2rem;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
 .section2-colums {
@@ -751,6 +752,25 @@ footer p {
   }
   .section1-home-left h2 {
     font-size: 1.5rem;
+  }
+
+  .section2-group {
+    flex-direction: column;
+  }
+
+  .section2-colums {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .section2-home h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .section2-home h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
   }
 
   .section-apropos {
