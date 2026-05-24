@@ -22,7 +22,7 @@
     <nav>
       <div class="container">
         <div class="logo">
-          <a href="#"
+          <a href="index.html"
             ><img
               src="./img/logo coach bien etre2.png"
               alt="mon coach bien être"
@@ -57,7 +57,7 @@
             et vos objectifs personnels. <br />Ensemble, créons une version plus
             forte et épanouie de vous-même.
           </p>
-          <button class="btn btn-primary">Réservez une séance</button>
+          <a href="contact.html"><button class="btn btn-primary">Réservez une séance</button></a>
         </div>
         <div class="section1-home-right">
           <img
@@ -79,7 +79,7 @@
               Un accompagnement 100% personnalisé pour atteindre vos objectifs.
               Programme sur-mesure, suivi nutritionnel et soutien motivationnel.
             </p>
-            <button class="btn btn-primary">En Savoir Plus</button>
+            <a href="offres.html"><button class="btn btn-primary">En Savoir Plus</button></a>
           </div>
           <div class="section2-colums">
             <h4>👥 Ateliers de Groupe</h4>
@@ -88,7 +88,7 @@
               Rejoignez une communauté motivante ! Sessions collectives
               énergiques pour progresser ensemble dans une ambiance conviviale
             </p>
-            <button class="btn btn-primary">En Savoir Plus</button>
+            <a href="offres.html"><button class="btn btn-primary">En Savoir Plus</button></a>
           </div>
           <div class="section2-colums">
             <h4>📱 Programme en Ligne</h4>
@@ -98,7 +98,7 @@
               vidéos, plans d'entraînement et suivi à distance pour une
               flexibilité totale
             </p>
-            <button class="btn btn-primary">En Savoir Plus</button>
+            <a href="offres.html"><button class="btn btn-primary">En Savoir Plus</button></a>
           </div>
         </div>
       </div>
@@ -204,16 +204,16 @@
 
       <div class="temoignages-cta">
         <p>Prête à écrire votre propre histoire ?</p>
-        <button class="btn-primary">Réservez votre séance découverte</button>
+        <a href="contact.html"><button class="btn-primary">Réservez votre séance découverte</button></a>
       </div>
     </section>
     <footer>
       <div class="footer-container">
         <div class="footer-left">
-          <p>Contact</p>
-          <p>CGU</p>
-          <p>Mentions Légales</p>
-          <p>Confidentialités</p>
+          <p><a href="contact.html" style="color:white;text-decoration:none;">Contact</a></p>
+          <p><a href="#" style="color:white;text-decoration:none;">CGU</a></p>
+          <p><a href="#" style="color:white;text-decoration:none;">Mentions Légales</a></p>
+          <p><a href="#" style="color:white;text-decoration:none;">Confidentialités</a></p>
         </div>
         <div class="footer-center">
           <p>
@@ -224,33 +224,26 @@
         </div>
         <div class="footer-right">
           <p>Suivez moi sur les réseaux sociaux</p>
-          <div class="footer-social-media">
+          <ul class="footer-social-media">
             <li>
               <a href="https://www.facebook.com/" target="_blank">
                 <i class="fab fa-facebook"></i
               ></a>
             </li>
             <li>
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.instagram.com/" target="_blank">
                 <i class="fab fa-instagram"></i
               ></a>
             </li>
             <li>
-              <a href="https://www.facebook.com/" target="_blank"
+              <a href="https://www.youtube.com/" target="_blank"
                 ><i class="fab fa-youtube"></i
               ></a>
             </li>
-          </div>
+          </ul>
         </div>
       </div>
     </footer>
-    <script src="script.js">
-      const burger = document.getElementById("burger");
-      const navLinks = document.getElementById("nav-links");
-
-      burger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

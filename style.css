@@ -88,8 +88,6 @@ nav a {
   grid-template-columns: 1fr 1fr;
   padding: 40px;
   gap: 100px;
-  min-width: 0;
-  min-width: 900px;
 }
 
 .section1-home p {
@@ -735,6 +733,17 @@ footer p {
     grid-template-columns: 1fr; /* colonne unique sur mobile */
     gap: 30px;
     padding: 20px;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 2rem 1.5rem;
   }
 
   .section1-home-left h1 {
