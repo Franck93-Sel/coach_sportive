@@ -135,10 +135,10 @@ nav a {
 }
 
 .section2-group {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 1rem;
-  flex-wrap: wrap;
 }
 
 .section2-colums {
@@ -755,12 +755,7 @@ footer p {
   }
 
   .section2-group {
-    flex-direction: column;
-  }
-
-  .section2-colums {
-    width: 100%;
-    margin-bottom: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .section2-home h2 {
@@ -824,6 +819,10 @@ footer p {
 }
 
 @media (max-width: 568px) {
+  .section2-group {
+    grid-template-columns: 1fr;
+  }
+
   .ressources-grid {
     grid-template-columns: 1fr;
     margin: 30px 10px 0px 10px;
